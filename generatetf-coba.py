@@ -3,7 +3,7 @@ from kfp import components
 from kfp import dsl
 from kfp import gcp
 
-dataflow_tf_transform_op = 'gcr.io/celerates-playground/dock-img@sha256:e8935c4e00ce2a6d938b8349e8d03c59aadfbeca3d1022936641708494b89a92'
+# dataflow_tf_transform_op = 'gcr.io/celerates-playground/dock-img@sha256:e8935c4e00ce2a6d938b8349e8d03c59aadfbeca3d1022936641708494b89a92'
 # kubeflow_tf_training_op  = components.load_component_from_url('https://raw.githubusercontent.com/kubeflow/pipelines/0b07e456b1f319d8b7a7301274f55c00fda9f537/components/kubeflow/dnntrainer/component.yaml')
 # dataflow_tf_predict_op   = components.load_component_from_url('https://raw.githubusercontent.com/kubeflow/pipelines/0b07e456b1f319d8b7a7301274f55c00fda9f537/components/dataflow/predict/component.yaml')
 # confusion_matrix_op      = components.load_component_from_url('https://raw.githubusercontent.com/kubeflow/pipelines/0b07e456b1f319d8b7a7301274f55c00fda9f537/components/local/confusion_matrix/component.yaml')
